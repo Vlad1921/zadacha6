@@ -10,7 +10,7 @@ public class Main {
 
         int num1 = in.nextInt();
         System.out.println("Таблица умножения для "+num1+":");
-        for (int i=1; i< 10; i++){
+        for (int i=0; i< 10; i++){
             System.out.println(num1 + " x " + (i+1) + " = " +
                     (num1 * (i+1)));
         }
